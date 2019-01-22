@@ -75,6 +75,11 @@
 	indentHeuristic = true
 
 [user]
+	# Sign them commits
 	signingkey = C9CB0D915396E4F1DB80B1EE388F515104E7D1F5
 	email = mrknmc@me.com
 	name = Mark Nemec
+
+[interactive]
+	# Use single key to confirm hunks in interactive add
+	singleKey = true
